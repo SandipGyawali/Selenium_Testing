@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --no-timeouts index.js",
     "start": "node run index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.10",
+    "mocha": "^10.2.0",
     "selenium-webdriver": "^4.16.0"
   }
 }

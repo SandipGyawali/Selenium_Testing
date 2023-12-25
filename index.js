@@ -1,3 +1,5 @@
 const { Login_Test } = require("./SeleniumTest/loginTest");
+const shoppingCart = require("./SeleniumTest/shoppingCart");
 
-Login_Test();
+// Login_Test();
+shoppingCart();
