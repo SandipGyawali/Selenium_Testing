@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --no-timeouts index.js",
+    "parallel-test": "mocha --no-timeouts --parallel index.js",
     "start": "node run index.js"
   },
   "author": "",
