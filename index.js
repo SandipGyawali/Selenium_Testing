@@ -6,6 +6,8 @@ const { fileUpload } = require("./SeleniumTest/fileUpload");
 const { fileDownload } = require("./SeleniumTest/fileDownload");
 const { newWindow } = require("./SeleniumTest/newWindow");
 const { dynamicLoadedPage } = require("./SeleniumTest/dynamicLoadedPage");
+const { hoverEffect } = require("./SeleniumTest/hoverEffect");
+const { dynamicContent } = require("./SeleniumTest/dynamicContent");
 
 // Login_Test();
 // shoppingCart();
@@ -15,4 +17,6 @@ const { dynamicLoadedPage } = require("./SeleniumTest/dynamicLoadedPage");
 // fileUpload();
 // fileDownload();
 // newWindow();
-dynamicLoadedPage();
+// dynamicLoadedPage();
+hoverEffect();
+dynamicContent();
