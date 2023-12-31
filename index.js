@@ -8,6 +8,8 @@ const { newWindow } = require("./SeleniumTest/newWindow");
 const { dynamicLoadedPage } = require("./SeleniumTest/dynamicLoadedPage");
 const { hoverEffect } = require("./SeleniumTest/hoverEffect");
 const { dynamicContent } = require("./SeleniumTest/dynamicContent");
+const { alertEvent } = require("./SeleniumTest/alertEvent");
+const { brokenUrl } = require("./SeleniumTest/brokenUrl");
 
 // Login_Test();
 // shoppingCart();
@@ -18,5 +20,7 @@ const { dynamicContent } = require("./SeleniumTest/dynamicContent");
 // fileDownload();
 // newWindow();
 // dynamicLoadedPage();
-hoverEffect();
-dynamicContent();
+// hoverEffect();
+// dynamicContent();
+alertEvent();
+brokenUrl();
