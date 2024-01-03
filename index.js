@@ -1,3 +1,3 @@
-const { bookStore } = require("./SeleniumTest/bookStore.js");
+const { roomBookingTest } = require("./SeleniumTest/roomBookingTest");
 
-bookStore();
+roomBookingTest();
