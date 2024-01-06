@@ -1,5 +1,3 @@
-const { roomBookingTest } = require("./SeleniumTest/roomBookingTest");
-const { scrapeQuotes } = require("./SeleniumTest/quoteScrape");
+const { myWishList } = require("./SeleniumTest/wishList");
 
-// roomBookingTest();
-scrapeQuotes();
+myWishList();
