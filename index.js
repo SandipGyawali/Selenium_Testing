@@ -1,3 +1,3 @@
-const { myWishList } = require("./SeleniumTest/wishList");
+const { review } = require("./SeleniumTest/review");
 
-myWishList();
+review();
