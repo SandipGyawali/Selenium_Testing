@@ -1,3 +1,3 @@
-const { review } = require("./SeleniumTest/review");
+const { scrapeNewsData } = require("./SeleniumTest/scrappingNews");
 
-review();
+scrapeNewsData("https://finance.yahoo.com/topic/stock-market-news/");
